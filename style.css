@@ -57,20 +57,10 @@ background-repeat: repeat-x;
 
 #header #socialIcons {  /* This controls the positioning of the social media icons in the header.  Feel free to adjust positioning. */
 	float: left;
-	position: absolute; top: 174px; left: 390px;
+	position: absolute; top: 130px; left: 700px;
 }
 
-#header #socialIcons ul {
-	margin: 0;
-	padding: 0;
-	
-}
 
-#header #socialIcons ul li {
-	float: left;
-	list-style: none;
-	padding: 4px 2px;  /* This controls the spacing between the social media icons.  Feel free to adjust positioning. */
-}
 
 
 #headerBanner  {  /* This code positions the banner in your header.  Right now the banner is commented out so you'll need to go to the index.html file to remove the comment out tags.  Edit the index.html to add AdSense code or any image that you'd like. */
@@ -123,7 +113,7 @@ background-repeat: repeat-x;
 
 #topMenu2 {  /* Controls the menu below the header */
 
-	background: #a376c1;  /* Controls background color of entire menu */
+	background: #DF3A01;  /* Controls background color of entire menu */
 	float: left;
 	width: 100%;
 	position: relative;
@@ -141,12 +131,12 @@ background-repeat: repeat-x;
 	font-size: 12px; 
 	list-style: none;
 	font-family: "Verdana", "Arial", Helvetica, sans-serif;
-	border-bottom: 1px solid #a376c1; /* Controls bottom border color of menu links */
+	border-bottom: 1px solid #DF3A01; /* Controls bottom border color of menu links */
 	margin-left: 0px;  /* If you don't have enough links to fill up the menu, you can center them horizontally by adjusting the margin-left attribute.  */
 	padding: 0;
 }
 #topMenu2 a {
-	background: #a376c1;  /* Controls background color of menu links */
+	background: #DF3A01;  /* Controls background color of menu links */
 	font-size: 12px;
 	color: #fff;  /* Controls text color of menu links */
 	display: block;
@@ -401,7 +391,11 @@ img {  /* Automatically adds padding/spacing around every image.  Feel free to a
 	padding-top: 6px;
 }
 
-
+#socialIcons {   /* Positions the FB like button for your site over left nav */
+	margin: 15px 0 0 60px;  /* This spaces the FB like button */
+	padding: 0;
+	display: block;
+}
 #fblike {   /* Positions the FB like button for your site over left nav */
 	margin: 10px 0 0 42px;  /* This spaces the FB like button */
 	padding: 0;
