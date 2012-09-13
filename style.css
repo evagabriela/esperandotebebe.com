@@ -113,7 +113,7 @@ background-repeat: repeat-x;
 
 #topMenu2 {  /* Controls the menu below the header */
 
-	background: #DF3A01;  /* Controls background color of entire menu */
+	background: #B43104;  /* Controls background color of entire menu */
 	float: left;
 	width: 100%;
 	position: relative;
@@ -131,12 +131,12 @@ background-repeat: repeat-x;
 	font-size: 12px; 
 	list-style: none;
 	font-family: "Verdana", "Arial", Helvetica, sans-serif;
-	border-bottom: 1px solid #DF3A01; /* Controls bottom border color of menu links */
+	border-bottom: 1px solid #B43104; /* Controls bottom border color of menu links */
 	margin-left: 0px;  /* If you don't have enough links to fill up the menu, you can center them horizontally by adjusting the margin-left attribute.  */
 	padding: 0;
 }
 #topMenu2 a {
-	background: #DF3A01;  /* Controls background color of menu links */
+	background: #B43104;  /* Controls background color of menu links */
 	font-size: 12px;
 	color: #fff;  /* Controls text color of menu links */
 	display: block;
@@ -367,8 +367,8 @@ img {  /* Automatically adds padding/spacing around every image.  Feel free to a
 	background:#faf7d8;
 	color: #000;
 	border:1px solid #672d67;
-	width: 250px;
-	height: 120px;
+	width: 580px;
+	height: 50px;
 	padding-top: 5px;
 	padding-right: 6px;
 	font-family: Verdana, Geneva, sans-serif;
